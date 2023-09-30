@@ -50,19 +50,9 @@ call plug#end()
 " Mappings code goes here.
 nnoremap <SPACE> <Nop>
 let mapleader = " "
-nnoremap <C-K> :%!clang-format <CR>
 nnoremap <leader>t :echo 'test leader'<cr>
 inoremap jj <esc>
 
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
-
-noremap <c-up> <c-w>+
-noremap <c-down> <c-w>-
-noremap <c-left> <c-w>>
-noremap <c-right> <c-w><
 " 
 
 " VIMSCRIPT
@@ -77,7 +67,6 @@ augroup END
 " More Vimscripts code goes here.
 autocmd BufRead *.rs :echo 'hello Rust'
 autocmd BufRead *.c :echo 'hello C'
-autocmd BufRead *.cpp :echo 'hello C++'
 
 " STATUS LINE
 " Status bar code goes here.
