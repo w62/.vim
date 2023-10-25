@@ -8,6 +8,7 @@ filetype indent on
 syntax on
 
 set number
+set relativenumber
 set cursorline
 set shiftwidth=4
 set tabstop=4
@@ -20,9 +21,6 @@ set showmatch
 set wildmenu
 set wildmode=list:longest
 
-
-
-
 set clipboard=unnamed
 set mouse=a
 set ttymouse=xterm2
@@ -32,7 +30,7 @@ set colorcolumn=81
 set whichwrap+=<,>,[,],h,l"
 set iskeyword+==
 set spell spelllang=en_us
-colorscheme slate
+colorscheme koehler
 
 
 " PLUGINS
