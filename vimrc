@@ -26,6 +26,7 @@ set mouse=a
 set ttymouse=xterm2
 set laststatus=2
 let g:rustfmt_autosave = 1
+let g:lsc_server_commands = {'cpp': 'clangd'}
 set colorcolumn=81
 set whichwrap+=<,>,[,],h,l"
 set iskeyword+==
@@ -37,6 +38,10 @@ colorscheme koehler
 call plug#begin('~/.vim/plugged')
 
 Plug 'dense-analysis/ale'
+
+Plug 'vim-scripts/AutoComplPop'
+
+Plug 'natebosch/vim-lsc'
 
 Plug 'preservim/nerdtree'
 
